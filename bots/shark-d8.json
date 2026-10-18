@@ -1,0 +1,14 @@
+{
+  "description": "Heavyweight - hard. Looks 8 moves ahead (stronger, a bit slower).",
+  "engine": "core/engine.exe",
+  "limits": {
+    "depth": 8
+  },
+  "name": "shark-d8",
+  "options": {
+    "Hash": 128,
+    "Threads": 2
+  },
+  "protocol": "uci",
+  "version": "0.1.0"
+}

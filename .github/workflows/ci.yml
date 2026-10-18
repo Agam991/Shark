@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  engine:
+    name: Engine (build + perft/search/uci tests)
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure (CMake, Release)
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build -j
+
+      - name: Test (perft + search + uci)
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Benchmark (informational)
+        run: bash bench/bench.sh core/engine 7
+
+  registry:
+    name: Bot registry (Python)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Unit tests (stdlib only)
+        run: python -m unittest discover -s tools/tests -v
+
+      - name: Validate committed roster
+        run: python -m tools.arena.cli validate

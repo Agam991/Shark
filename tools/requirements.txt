@@ -1,0 +1,9 @@
+# Shark arena harness dependencies.
+#
+#   python -m venv .venv
+#   .venv/bin/pip install -r tools/requirements.txt      (Windows: .venv\Scripts\pip)
+#
+# Only the tournament harness needs this; the engine and the bot registry have no
+# dependencies. python-chess is used purely as the match referee (move legality,
+# draw and mate detection, PGN, and the UCI engine driver).
+python-chess

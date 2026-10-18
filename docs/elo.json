@@ -1,0 +1,56 @@
+{
+  "type": "calibration",
+  "bot": "shark-blitz",
+  "generated": "2026-07-18T00:46:17",
+  "movetime_ms": 100,
+  "ladder": [
+    {
+      "elo": 2200,
+      "games": 20,
+      "wins": 12,
+      "draws": 5,
+      "losses": 3,
+      "score": 0.725,
+      "perf": 2368.4
+    },
+    {
+      "elo": 2500,
+      "games": 20,
+      "wins": 3,
+      "draws": 12,
+      "losses": 5,
+      "score": 0.45,
+      "perf": 2465.1
+    },
+    {
+      "elo": 2800,
+      "games": 20,
+      "wins": 2,
+      "draws": 7,
+      "losses": 11,
+      "score": 0.275,
+      "perf": 2631.6
+    },
+    {
+      "elo": 3050,
+      "games": 20,
+      "wins": 0,
+      "draws": 4,
+      "losses": 16,
+      "score": 0.1,
+      "perf": 2668.3
+    },
+    {
+      "elo": 3190,
+      "games": 20,
+      "wins": 1,
+      "draws": 3,
+      "losses": 16,
+      "score": 0.125,
+      "perf": 2852.0
+    }
+  ],
+  "estimate_elo": 2445,
+  "crossover_elo": 2445,
+  "perf_rating": 2488
+}

@@ -1,0 +1,50 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+
+# Compiled engine binaries (never commit binaries)
+engine
+core/engine
+core/shark
+bin/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env / secrets
+.env
+*.local
+
+# Tournament / benchmark output
+*.pgn
+results/
+logs/
+web/data/
+
+# Python venv
+.venv/
+__pycache__/
+*.pyc
+
+# Visual Studio / MSVC output
+Release/
+Debug/
+x64/
+.vs/
+*.pdb
+*.lib
+*.ilk
+*.exp
+*.user

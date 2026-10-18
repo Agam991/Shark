@@ -1,0 +1,3125 @@
+{
+ "settings": {
+  "games_per_pairing": 50,
+  "movetime_ms": 30,
+  "hash_mb": 16,
+  "threads": 1,
+  "opening_book": "10 lines, both colors",
+  "personality_book": false
+ },
+ "pairings": [
+  {
+   "a": "Balanced",
+   "b": "Aggressive",
+   "games": 50,
+   "wins_a": 8,
+   "draws": 30,
+   "losses_a": 12,
+   "score_a": 0.46,
+   "elo_a_minus_b": -27.9,
+   "margin": 61.5,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 47,
+     "seconds": 1.6
+    },
+    {
+     "game": 2,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 90,
+     "seconds": 3.0
+    },
+    {
+     "game": 3,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 136,
+     "seconds": 4.3
+    },
+    {
+     "game": 4,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 132,
+     "seconds": 4.0
+    },
+    {
+     "game": 5,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 55,
+     "seconds": 1.8
+    },
+    {
+     "game": 6,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 62,
+     "seconds": 2.0
+    },
+    {
+     "game": 7,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 126,
+     "seconds": 4.1
+    },
+    {
+     "game": 8,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 142,
+     "seconds": 4.6
+    },
+    {
+     "game": 9,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 66,
+     "seconds": 2.1
+    },
+    {
+     "game": 10,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 69,
+     "seconds": 1.9
+    },
+    {
+     "game": 11,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 102,
+     "seconds": 3.1
+    },
+    {
+     "game": 12,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 99,
+     "seconds": 3.2
+    },
+    {
+     "game": 13,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 52,
+     "seconds": 1.6
+    },
+    {
+     "game": 14,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 147,
+     "seconds": 4.5
+    },
+    {
+     "game": 15,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 100,
+     "seconds": 3.2
+    },
+    {
+     "game": 16,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 131,
+     "seconds": 3.9
+    },
+    {
+     "game": 17,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 61,
+     "seconds": 2.0
+    },
+    {
+     "game": 18,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 93,
+     "seconds": 3.0
+    },
+    {
+     "game": 19,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 111,
+     "seconds": 3.5
+    },
+    {
+     "game": 20,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 111,
+     "seconds": 3.5
+    },
+    {
+     "game": 21,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 62,
+     "seconds": 2.0
+    },
+    {
+     "game": 22,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 153,
+     "seconds": 5.1
+    },
+    {
+     "game": 23,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 106,
+     "seconds": 3.3
+    },
+    {
+     "game": 24,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 149,
+     "seconds": 4.8
+    },
+    {
+     "game": 25,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 137,
+     "seconds": 4.3
+    },
+    {
+     "game": 26,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 49,
+     "seconds": 1.6
+    },
+    {
+     "game": 27,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 128,
+     "seconds": 4.2
+    },
+    {
+     "game": 28,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 69,
+     "seconds": 2.2
+    },
+    {
+     "game": 29,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 125,
+     "seconds": 3.8
+    },
+    {
+     "game": 30,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 76,
+     "seconds": 2.5
+    },
+    {
+     "game": 31,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 55,
+     "seconds": 1.6
+    },
+    {
+     "game": 32,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 71,
+     "seconds": 2.3
+    },
+    {
+     "game": 33,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 104,
+     "seconds": 3.3
+    },
+    {
+     "game": 34,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 111,
+     "seconds": 3.4
+    },
+    {
+     "game": 35,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 140,
+     "seconds": 4.3
+    },
+    {
+     "game": 36,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 110,
+     "seconds": 3.4
+    },
+    {
+     "game": 37,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 70,
+     "seconds": 2.3
+    },
+    {
+     "game": 38,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 97,
+     "seconds": 3.2
+    },
+    {
+     "game": 39,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 41,
+     "seconds": 1.3
+    },
+    {
+     "game": 40,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 108,
+     "seconds": 3.2
+    },
+    {
+     "game": 41,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 144,
+     "seconds": 4.5
+    },
+    {
+     "game": 42,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 81,
+     "seconds": 2.7
+    },
+    {
+     "game": 43,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 59,
+     "seconds": 1.7
+    },
+    {
+     "game": 44,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 115,
+     "seconds": 3.5
+    },
+    {
+     "game": 45,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 143,
+     "seconds": 4.4
+    },
+    {
+     "game": 46,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 138,
+     "seconds": 4.5
+    },
+    {
+     "game": 47,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 67,
+     "seconds": 2.2
+    },
+    {
+     "game": 48,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 66,
+     "seconds": 2.2
+    },
+    {
+     "game": 49,
+     "white": "Balanced",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 165,
+     "seconds": 5.4
+    },
+    {
+     "game": 50,
+     "white": "Aggressive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 45,
+     "seconds": 1.5
+    }
+   ]
+  },
+  {
+   "a": "Balanced",
+   "b": "Defensive",
+   "games": 50,
+   "wins_a": 9,
+   "draws": 34,
+   "losses_a": 7,
+   "score_a": 0.52,
+   "elo_a_minus_b": 13.9,
+   "margin": 54.9,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 82,
+     "seconds": 2.4
+    },
+    {
+     "game": 2,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 103,
+     "seconds": 3.2
+    },
+    {
+     "game": 3,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 89,
+     "seconds": 2.9
+    },
+    {
+     "game": 4,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 117,
+     "seconds": 3.6
+    },
+    {
+     "game": 5,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 55,
+     "seconds": 1.8
+    },
+    {
+     "game": 6,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 124,
+     "seconds": 3.7
+    },
+    {
+     "game": 7,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 147,
+     "seconds": 4.6
+    },
+    {
+     "game": 8,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 62,
+     "seconds": 2.0
+    },
+    {
+     "game": 9,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 60,
+     "seconds": 2.0
+    },
+    {
+     "game": 10,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 111,
+     "seconds": 3.5
+    },
+    {
+     "game": 11,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 65,
+     "seconds": 1.9
+    },
+    {
+     "game": 12,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 152,
+     "seconds": 4.6
+    },
+    {
+     "game": 13,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 114,
+     "seconds": 3.5
+    },
+    {
+     "game": 14,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 91,
+     "seconds": 2.9
+    },
+    {
+     "game": 15,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 162,
+     "seconds": 5.3
+    },
+    {
+     "game": 16,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 58,
+     "seconds": 1.9
+    },
+    {
+     "game": 17,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 141,
+     "seconds": 4.2
+    },
+    {
+     "game": 18,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 106,
+     "seconds": 3.3
+    },
+    {
+     "game": 19,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 76,
+     "seconds": 2.4
+    },
+    {
+     "game": 20,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 104,
+     "seconds": 3.3
+    },
+    {
+     "game": 21,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 61,
+     "seconds": 1.8
+    },
+    {
+     "game": 22,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 109,
+     "seconds": 3.4
+    },
+    {
+     "game": 23,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 140,
+     "seconds": 4.3
+    },
+    {
+     "game": 24,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 104,
+     "seconds": 3.4
+    },
+    {
+     "game": 25,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 50,
+     "seconds": 1.6
+    },
+    {
+     "game": 26,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 52,
+     "seconds": 1.7
+    },
+    {
+     "game": 27,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 167,
+     "seconds": 5.3
+    },
+    {
+     "game": 28,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 85,
+     "seconds": 2.8
+    },
+    {
+     "game": 29,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 113,
+     "seconds": 3.4
+    },
+    {
+     "game": 30,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 59,
+     "seconds": 1.9
+    },
+    {
+     "game": 31,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 60,
+     "seconds": 1.9
+    },
+    {
+     "game": 32,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 136,
+     "seconds": 4.4
+    },
+    {
+     "game": 33,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 71,
+     "seconds": 2.2
+    },
+    {
+     "game": 34,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 51,
+     "seconds": 1.6
+    },
+    {
+     "game": 35,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 71,
+     "seconds": 2.3
+    },
+    {
+     "game": 36,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 140,
+     "seconds": 4.5
+    },
+    {
+     "game": 37,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 87,
+     "seconds": 2.8
+    },
+    {
+     "game": 38,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 78,
+     "seconds": 2.5
+    },
+    {
+     "game": 39,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 140,
+     "seconds": 4.5
+    },
+    {
+     "game": 40,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 66,
+     "seconds": 2.1
+    },
+    {
+     "game": 41,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 67,
+     "seconds": 2.2
+    },
+    {
+     "game": 42,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 22,
+     "seconds": 0.8
+    },
+    {
+     "game": 43,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 49,
+     "seconds": 1.6
+    },
+    {
+     "game": 44,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 62,
+     "seconds": 2.0
+    },
+    {
+     "game": 45,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 113,
+     "seconds": 3.7
+    },
+    {
+     "game": 46,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 126,
+     "seconds": 4.0
+    },
+    {
+     "game": 47,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 66,
+     "seconds": 2.2
+    },
+    {
+     "game": 48,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 75,
+     "seconds": 2.4
+    },
+    {
+     "game": 49,
+     "white": "Balanced",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 151,
+     "seconds": 4.7
+    },
+    {
+     "game": 50,
+     "white": "Defensive",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 159,
+     "seconds": 5.2
+    }
+   ]
+  },
+  {
+   "a": "Balanced",
+   "b": "Positional",
+   "games": 50,
+   "wins_a": 8,
+   "draws": 29,
+   "losses_a": 13,
+   "score_a": 0.45,
+   "elo_a_minus_b": -34.9,
+   "margin": 63.0,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 92,
+     "seconds": 2.7
+    },
+    {
+     "game": 2,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 71,
+     "seconds": 2.2
+    },
+    {
+     "game": 3,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 115,
+     "seconds": 3.6
+    },
+    {
+     "game": 4,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 24,
+     "seconds": 0.8
+    },
+    {
+     "game": 5,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 81,
+     "seconds": 2.5
+    },
+    {
+     "game": 6,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 110,
+     "seconds": 3.6
+    },
+    {
+     "game": 7,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 159,
+     "seconds": 5.1
+    },
+    {
+     "game": 8,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 118,
+     "seconds": 3.8
+    },
+    {
+     "game": 9,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 130,
+     "seconds": 4.1
+    },
+    {
+     "game": 10,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 134,
+     "seconds": 4.2
+    },
+    {
+     "game": 11,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 110,
+     "seconds": 3.3
+    },
+    {
+     "game": 12,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 125,
+     "seconds": 4.1
+    },
+    {
+     "game": 13,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 6,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 154,
+     "seconds": 4.7
+    },
+    {
+     "game": 14,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 77,
+     "seconds": 2.4
+    },
+    {
+     "game": 15,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 91,
+     "seconds": 2.9
+    },
+    {
+     "game": 16,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 117,
+     "seconds": 3.7
+    },
+    {
+     "game": 17,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 80,
+     "seconds": 2.6
+    },
+    {
+     "game": 18,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 104,
+     "seconds": 3.4
+    },
+    {
+     "game": 19,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 131,
+     "seconds": 4.2
+    },
+    {
+     "game": 20,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 121,
+     "seconds": 3.7
+    },
+    {
+     "game": 21,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 90,
+     "seconds": 2.8
+    },
+    {
+     "game": 22,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 67,
+     "seconds": 2.0
+    },
+    {
+     "game": 23,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 129,
+     "seconds": 4.0
+    },
+    {
+     "game": 24,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 77,
+     "seconds": 2.3
+    },
+    {
+     "game": 25,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 97,
+     "seconds": 3.1
+    },
+    {
+     "game": 26,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 73,
+     "seconds": 2.4
+    },
+    {
+     "game": 27,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 3,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 82,
+     "seconds": 2.5
+    },
+    {
+     "game": 28,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 132,
+     "seconds": 4.0
+    },
+    {
+     "game": 29,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 57,
+     "seconds": 1.9
+    },
+    {
+     "game": 30,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 82,
+     "seconds": 2.7
+    },
+    {
+     "game": 31,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 42,
+     "seconds": 1.3
+    },
+    {
+     "game": 32,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 61,
+     "seconds": 2.0
+    },
+    {
+     "game": 33,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 90,
+     "seconds": 2.9
+    },
+    {
+     "game": 34,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 81,
+     "seconds": 2.6
+    },
+    {
+     "game": 35,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 75,
+     "seconds": 2.4
+    },
+    {
+     "game": 36,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 97,
+     "seconds": 3.1
+    },
+    {
+     "game": 37,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 8,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 106,
+     "seconds": 3.2
+    },
+    {
+     "game": 38,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 8,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 108,
+     "seconds": 3.2
+    },
+    {
+     "game": 39,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 41,
+     "seconds": 1.3
+    },
+    {
+     "game": 40,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 9,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 121,
+     "seconds": 3.6
+    },
+    {
+     "game": 41,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 54,
+     "seconds": 1.8
+    },
+    {
+     "game": 42,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 112,
+     "seconds": 3.7
+    },
+    {
+     "game": 43,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 89,
+     "seconds": 2.8
+    },
+    {
+     "game": 44,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 119,
+     "seconds": 3.7
+    },
+    {
+     "game": 45,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 75,
+     "seconds": 2.4
+    },
+    {
+     "game": 46,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 87,
+     "seconds": 2.8
+    },
+    {
+     "game": 47,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 126,
+     "seconds": 4.1
+    },
+    {
+     "game": 48,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 64,
+     "seconds": 2.1
+    },
+    {
+     "game": 49,
+     "white": "Balanced",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 93,
+     "seconds": 2.8
+    },
+    {
+     "game": 50,
+     "white": "Positional",
+     "black": "Balanced",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 125,
+     "seconds": 3.9
+    }
+   ]
+  },
+  {
+   "a": "Aggressive",
+   "b": "Defensive",
+   "games": 50,
+   "wins_a": 8,
+   "draws": 33,
+   "losses_a": 9,
+   "score_a": 0.49,
+   "elo_a_minus_b": -6.9,
+   "margin": 56.6,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 93,
+     "seconds": 3.1
+    },
+    {
+     "game": 2,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 22,
+     "seconds": 0.8
+    },
+    {
+     "game": 3,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 27,
+     "seconds": 0.9
+    },
+    {
+     "game": 4,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 84,
+     "seconds": 2.8
+    },
+    {
+     "game": 5,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 115,
+     "seconds": 3.8
+    },
+    {
+     "game": 6,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 132,
+     "seconds": 4.3
+    },
+    {
+     "game": 7,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 86,
+     "seconds": 2.8
+    },
+    {
+     "game": 8,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 54,
+     "seconds": 1.8
+    },
+    {
+     "game": 9,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 108,
+     "seconds": 3.5
+    },
+    {
+     "game": 10,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 143,
+     "seconds": 4.5
+    },
+    {
+     "game": 11,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 69,
+     "seconds": 2.1
+    },
+    {
+     "game": 12,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 113,
+     "seconds": 3.5
+    },
+    {
+     "game": 13,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 55,
+     "seconds": 1.7
+    },
+    {
+     "game": 14,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 110,
+     "seconds": 3.3
+    },
+    {
+     "game": 15,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 114,
+     "seconds": 3.6
+    },
+    {
+     "game": 16,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 89,
+     "seconds": 2.9
+    },
+    {
+     "game": 17,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 126,
+     "seconds": 4.1
+    },
+    {
+     "game": 18,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 110,
+     "seconds": 3.6
+    },
+    {
+     "game": 19,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 78,
+     "seconds": 2.5
+    },
+    {
+     "game": 20,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 99,
+     "seconds": 3.0
+    },
+    {
+     "game": 21,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 76,
+     "seconds": 2.5
+    },
+    {
+     "game": 22,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 102,
+     "seconds": 3.4
+    },
+    {
+     "game": 23,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 109,
+     "seconds": 3.4
+    },
+    {
+     "game": 24,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 117,
+     "seconds": 3.6
+    },
+    {
+     "game": 25,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 97,
+     "seconds": 3.1
+    },
+    {
+     "game": 26,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 120,
+     "seconds": 3.6
+    },
+    {
+     "game": 27,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 87,
+     "seconds": 2.8
+    },
+    {
+     "game": 28,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 48,
+     "seconds": 1.6
+    },
+    {
+     "game": 29,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 58,
+     "seconds": 1.9
+    },
+    {
+     "game": 30,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 81,
+     "seconds": 2.3
+    },
+    {
+     "game": 31,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 49,
+     "seconds": 1.3
+    },
+    {
+     "game": 32,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 142,
+     "seconds": 4.6
+    },
+    {
+     "game": 33,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 64,
+     "seconds": 1.7
+    },
+    {
+     "game": 34,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 141,
+     "seconds": 4.5
+    },
+    {
+     "game": 35,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 117,
+     "seconds": 3.5
+    },
+    {
+     "game": 36,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 109,
+     "seconds": 3.3
+    },
+    {
+     "game": 37,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 84,
+     "seconds": 2.8
+    },
+    {
+     "game": 38,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 46,
+     "seconds": 1.5
+    },
+    {
+     "game": 39,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 72,
+     "seconds": 2.3
+    },
+    {
+     "game": 40,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 53,
+     "seconds": 1.6
+    },
+    {
+     "game": 41,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 75,
+     "seconds": 2.5
+    },
+    {
+     "game": 42,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 126,
+     "seconds": 4.0
+    },
+    {
+     "game": 43,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 96,
+     "seconds": 3.1
+    },
+    {
+     "game": 44,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 69,
+     "seconds": 2.3
+    },
+    {
+     "game": 45,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 91,
+     "seconds": 3.0
+    },
+    {
+     "game": 46,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "insufficient material",
+     "plies": 123,
+     "seconds": 4.0
+    },
+    {
+     "game": 47,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 128,
+     "seconds": 4.0
+    },
+    {
+     "game": 48,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 107,
+     "seconds": 3.5
+    },
+    {
+     "game": 49,
+     "white": "Aggressive",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 78,
+     "seconds": 2.5
+    },
+    {
+     "game": 50,
+     "white": "Defensive",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 68,
+     "seconds": 2.0
+    }
+   ]
+  },
+  {
+   "a": "Aggressive",
+   "b": "Positional",
+   "games": 50,
+   "wins_a": 8,
+   "draws": 30,
+   "losses_a": 12,
+   "score_a": 0.46,
+   "elo_a_minus_b": -27.9,
+   "margin": 61.5,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 122,
+     "seconds": 3.9
+    },
+    {
+     "game": 2,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 173,
+     "seconds": 5.5
+    },
+    {
+     "game": 3,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 72,
+     "seconds": 2.4
+    },
+    {
+     "game": 4,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 157,
+     "seconds": 5.1
+    },
+    {
+     "game": 5,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 69,
+     "seconds": 2.3
+    },
+    {
+     "game": 6,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 101,
+     "seconds": 3.2
+    },
+    {
+     "game": 7,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 89,
+     "seconds": 2.9
+    },
+    {
+     "game": 8,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 100,
+     "seconds": 3.1
+    },
+    {
+     "game": 9,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 71,
+     "seconds": 2.3
+    },
+    {
+     "game": 10,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 126,
+     "seconds": 4.1
+    },
+    {
+     "game": 11,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 140,
+     "seconds": 4.3
+    },
+    {
+     "game": 12,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 138,
+     "seconds": 4.2
+    },
+    {
+     "game": 13,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 111,
+     "seconds": 3.5
+    },
+    {
+     "game": 14,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 103,
+     "seconds": 3.1
+    },
+    {
+     "game": 15,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 94,
+     "seconds": 3.0
+    },
+    {
+     "game": 16,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 135,
+     "seconds": 4.0
+    },
+    {
+     "game": 17,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "insufficient material",
+     "plies": 154,
+     "seconds": 5.0
+    },
+    {
+     "game": 18,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 59,
+     "seconds": 1.8
+    },
+    {
+     "game": 19,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 54,
+     "seconds": 1.7
+    },
+    {
+     "game": 20,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 61,
+     "seconds": 1.9
+    },
+    {
+     "game": 21,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 62,
+     "seconds": 2.1
+    },
+    {
+     "game": 22,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 99,
+     "seconds": 3.3
+    },
+    {
+     "game": 23,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 89,
+     "seconds": 2.9
+    },
+    {
+     "game": 24,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 145,
+     "seconds": 4.5
+    },
+    {
+     "game": 25,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 52,
+     "seconds": 1.7
+    },
+    {
+     "game": 26,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 125,
+     "seconds": 3.8
+    },
+    {
+     "game": 27,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 87,
+     "seconds": 2.8
+    },
+    {
+     "game": 28,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 101,
+     "seconds": 3.1
+    },
+    {
+     "game": 29,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 65,
+     "seconds": 2.1
+    },
+    {
+     "game": 30,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 142,
+     "seconds": 4.4
+    },
+    {
+     "game": 31,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 72,
+     "seconds": 2.4
+    },
+    {
+     "game": 32,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 5,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 154,
+     "seconds": 5.0
+    },
+    {
+     "game": 33,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 6,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 65,
+     "seconds": 1.9
+    },
+    {
+     "game": 34,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 100,
+     "seconds": 3.2
+    },
+    {
+     "game": 35,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 80,
+     "seconds": 2.6
+    },
+    {
+     "game": 36,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "insufficient material",
+     "plies": 145,
+     "seconds": 4.7
+    },
+    {
+     "game": 37,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 8,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 121,
+     "seconds": 3.8
+    },
+    {
+     "game": 38,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 113,
+     "seconds": 3.7
+    },
+    {
+     "game": 39,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 79,
+     "seconds": 2.5
+    },
+    {
+     "game": 40,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 9,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 92,
+     "seconds": 2.7
+    },
+    {
+     "game": 41,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 141,
+     "seconds": 4.4
+    },
+    {
+     "game": 42,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 103,
+     "seconds": 3.4
+    },
+    {
+     "game": 43,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 122,
+     "seconds": 4.0
+    },
+    {
+     "game": 44,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 121,
+     "seconds": 3.7
+    },
+    {
+     "game": 45,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 106,
+     "seconds": 3.4
+    },
+    {
+     "game": 46,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 2,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 127,
+     "seconds": 3.9
+    },
+    {
+     "game": 47,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 125,
+     "seconds": 4.1
+    },
+    {
+     "game": 48,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 118,
+     "seconds": 3.8
+    },
+    {
+     "game": 49,
+     "white": "Aggressive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 137,
+     "seconds": 4.5
+    },
+    {
+     "game": 50,
+     "white": "Positional",
+     "black": "Aggressive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 63,
+     "seconds": 2.1
+    }
+   ]
+  },
+  {
+   "a": "Defensive",
+   "b": "Positional",
+   "games": 50,
+   "wins_a": 6,
+   "draws": 35,
+   "losses_a": 9,
+   "score_a": 0.47,
+   "elo_a_minus_b": -20.9,
+   "margin": 53.0,
+   "rows": [
+    {
+     "game": 1,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 86,
+     "seconds": 2.9
+    },
+    {
+     "game": 2,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 125,
+     "seconds": 4.0
+    },
+    {
+     "game": 3,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 101,
+     "seconds": 3.0
+    },
+    {
+     "game": 4,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 114,
+     "seconds": 3.5
+    },
+    {
+     "game": 5,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 133,
+     "seconds": 4.0
+    },
+    {
+     "game": 6,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 71,
+     "seconds": 2.3
+    },
+    {
+     "game": 7,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 89,
+     "seconds": 2.9
+    },
+    {
+     "game": 8,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 82,
+     "seconds": 2.7
+    },
+    {
+     "game": 9,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 130,
+     "seconds": 3.9
+    },
+    {
+     "game": 10,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 151,
+     "seconds": 4.8
+    },
+    {
+     "game": 11,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 60,
+     "seconds": 1.9
+    },
+    {
+     "game": 12,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 68,
+     "seconds": 2.2
+    },
+    {
+     "game": 13,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 75,
+     "seconds": 2.4
+    },
+    {
+     "game": 14,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 159,
+     "seconds": 5.1
+    },
+    {
+     "game": 15,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 79,
+     "seconds": 2.4
+    },
+    {
+     "game": 16,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 107,
+     "seconds": 3.5
+    },
+    {
+     "game": 17,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 67,
+     "seconds": 2.2
+    },
+    {
+     "game": 18,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 102,
+     "seconds": 3.3
+    },
+    {
+     "game": 19,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 161,
+     "seconds": 4.9
+    },
+    {
+     "game": 20,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 54,
+     "seconds": 1.7
+    },
+    {
+     "game": 21,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 122,
+     "seconds": 3.8
+    },
+    {
+     "game": 22,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 73,
+     "seconds": 2.4
+    },
+    {
+     "game": 23,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 93,
+     "seconds": 2.8
+    },
+    {
+     "game": 24,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 101,
+     "seconds": 3.1
+    },
+    {
+     "game": 25,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 104,
+     "seconds": 3.4
+    },
+    {
+     "game": 26,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 97,
+     "seconds": 3.2
+    },
+    {
+     "game": 27,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 70,
+     "seconds": 2.3
+    },
+    {
+     "game": 28,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 113,
+     "seconds": 3.7
+    },
+    {
+     "game": 29,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 73,
+     "seconds": 2.4
+    },
+    {
+     "game": 30,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 88,
+     "seconds": 2.9
+    },
+    {
+     "game": 31,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 73,
+     "seconds": 2.4
+    },
+    {
+     "game": 32,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 5,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 56,
+     "seconds": 1.8
+    },
+    {
+     "game": 33,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 6,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 44,
+     "seconds": 1.4
+    },
+    {
+     "game": 34,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 6,
+     "result": "1-0",
+     "termination": "checkmate",
+     "plies": 131,
+     "seconds": 3.9
+    },
+    {
+     "game": 35,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 82,
+     "seconds": 2.7
+    },
+    {
+     "game": 36,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 7,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 77,
+     "seconds": 2.5
+    },
+    {
+     "game": 37,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 8,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 168,
+     "seconds": 5.4
+    },
+    {
+     "game": 38,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 8,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 79,
+     "seconds": 2.6
+    },
+    {
+     "game": 39,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 131,
+     "seconds": 4.1
+    },
+    {
+     "game": 40,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 9,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 63,
+     "seconds": 2.0
+    },
+    {
+     "game": 41,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 51,
+     "seconds": 1.7
+    },
+    {
+     "game": 42,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 0,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 128,
+     "seconds": 4.3
+    },
+    {
+     "game": 43,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 90,
+     "seconds": 3.0
+    },
+    {
+     "game": 44,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 1,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 80,
+     "seconds": 2.6
+    },
+    {
+     "game": 45,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 125,
+     "seconds": 4.1
+    },
+    {
+     "game": 46,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 2,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 140,
+     "seconds": 4.6
+    },
+    {
+     "game": 47,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 3,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 102,
+     "seconds": 3.2
+    },
+    {
+     "game": 48,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 3,
+     "result": "1/2-1/2",
+     "termination": "threefold repetition",
+     "plies": 46,
+     "seconds": 1.5
+    },
+    {
+     "game": 49,
+     "white": "Defensive",
+     "black": "Positional",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 128,
+     "seconds": 3.9
+    },
+    {
+     "game": 50,
+     "white": "Positional",
+     "black": "Defensive",
+     "opening": 4,
+     "result": "0-1",
+     "termination": "checkmate",
+     "plies": 130,
+     "seconds": 3.9
+    }
+   ]
+  }
+ ],
+ "standings": [
+  {
+   "personality": "Positional",
+   "games": 150,
+   "points": 81.0,
+   "score": 0.54,
+   "elo_vs_field": 27.9,
+   "score_as_white": 0.5733
+  },
+  {
+   "personality": "Aggressive",
+   "games": 150,
+   "points": 74.5,
+   "score": 0.4967,
+   "elo_vs_field": -2.3,
+   "score_as_white": 0.5333
+  },
+  {
+   "personality": "Defensive",
+   "games": 150,
+   "points": 73.0,
+   "score": 0.4867,
+   "elo_vs_field": -9.3,
+   "score_as_white": 0.5067
+  },
+  {
+   "personality": "Balanced",
+   "games": 150,
+   "points": 71.5,
+   "score": 0.4767,
+   "elo_vs_field": -16.2,
+   "score_as_white": 0.5
+  }
+ ],
+ "elapsed_seconds": 924
+}

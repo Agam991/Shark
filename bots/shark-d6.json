@@ -1,0 +1,14 @@
+{
+  "description": "Middleweight - medium. Looks 6 moves ahead.",
+  "engine": "core/engine.exe",
+  "limits": {
+    "depth": 6
+  },
+  "name": "shark-d6",
+  "options": {
+    "Hash": 64,
+    "Threads": 1
+  },
+  "protocol": "uci",
+  "version": "0.1.0"
+}

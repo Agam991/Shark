@@ -1,0 +1,14 @@
+{
+  "description": "Featherweight - easiest. Looks only 4 moves ahead. Great for beginners.",
+  "engine": "core/engine.exe",
+  "limits": {
+    "depth": 4
+  },
+  "name": "shark-d4",
+  "options": {
+    "Hash": 64,
+    "Threads": 1
+  },
+  "protocol": "uci",
+  "version": "0.1.0"
+}

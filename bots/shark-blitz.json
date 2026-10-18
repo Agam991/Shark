@@ -1,0 +1,14 @@
+{
+  "description": "Blitz - strongest. Thinks ~0.1s per move (~2400 Elo). Recommended.",
+  "engine": "core/engine.exe",
+  "limits": {
+    "movetime": 100
+  },
+  "name": "shark-blitz",
+  "options": {
+    "Hash": 64,
+    "Threads": 1
+  },
+  "protocol": "uci",
+  "version": "0.1.0"
+}
