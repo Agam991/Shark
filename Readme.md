@@ -13,7 +13,7 @@ with calibrated `UCI_Elo` (see [Strength](#strength)).
 *The browser arena. Bots play live with per-move think times, and you can scrub
 back through the game afterwards.*
 
-Watch a demo: [shark-demo.mp4](https://github.com/Agam991/Shark/releases/download/v0.1.0/shark-demo.mp4)
+Watch a demo: [shark-demo.mp4](https://github.com/Agam991/Shark/raw/main/shark-demo.mp4)
 
 | Read next | |
 |---|---|
