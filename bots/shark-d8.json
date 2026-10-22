@@ -1,6 +1,6 @@
 {
   "description": "Heavyweight - hard. Looks 8 moves ahead (stronger, a bit slower).",
-  "engine": "core/engine.exe",
+  "engine": "core/engine",
   "limits": {
     "depth": 8
   },
