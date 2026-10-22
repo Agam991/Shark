@@ -1,6 +1,6 @@
 {
   "description": "Featherweight - easiest. Looks only 4 moves ahead. Great for beginners.",
-  "engine": "core/engine.exe",
+  "engine": "core/engine",
   "limits": {
     "depth": 4
   },
