@@ -1,6 +1,6 @@
 {
   "description": "Middleweight - medium. Looks 6 moves ahead.",
-  "engine": "core/engine.exe",
+  "engine": "core/engine",
   "limits": {
     "depth": 6
   },
