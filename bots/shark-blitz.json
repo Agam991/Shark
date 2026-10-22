@@ -1,6 +1,6 @@
 {
   "description": "Blitz - strongest. Thinks ~0.1s per move (~2400 Elo). Recommended.",
-  "engine": "core/engine.exe",
+  "engine": "core/engine",
   "limits": {
     "movetime": 100
   },
