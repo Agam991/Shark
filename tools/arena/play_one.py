@@ -30,7 +30,7 @@ def resolve_fighter(name: str, sf_movetime: int) -> reg.Bot:
     m = _SF_RE.match(name)
     if m:
         skill = max(0, min(20, int(m.group(1))))
-        sf = shutil.which("stockfish") or "/opt/homebrew/bin/stockfish"
+        sf = shutil.which("stockfish")
         if not Path(sf).is_file():
             raise SystemExit(f"stockfish not found at {sf}")
         return reg.Bot(name=name, engine=sf,
