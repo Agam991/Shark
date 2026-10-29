@@ -15,6 +15,8 @@ back through the game afterwards.*
 
 Watch a demo: [shark-demo.mp4](https://github.com/user-attachments/assets/7b83a3b2-0d9c-467d-a034-30f28a6336db)
 
+**Try Shark Chess Engine:** [Play Online](https://shark-r8ns.onrender.com/)
+
 | Read next | |
 |---|---|
 | [docs/RESULTS.md](docs/RESULTS.md) | Hundreds of recorded games between the personalities, with analysis |
