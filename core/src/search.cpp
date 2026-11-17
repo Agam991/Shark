@@ -16,6 +16,14 @@ namespace shark {
 namespace {
 
 constexpr int kInf = kValueInfinite;
+
+// A draw is scored slightly below 0 for the side that started the search
+// (the "root side"). So Shark avoids repeating when the position is roughly
+// equal or better, but happily repeats (or takes the 50-move draw) when it
+// is clearly worse than this value.
+constexpr int kContempt = 10;  // centipawns
+
+inline int draw_score(int ply) { return (ply & 1) ? kContempt : -kContempt; }
 constexpr int kPieceVal[6] = {100, 320, 330, 500, 900, 20000};
 
 bool is_capture(const Board& b, Move m) {
@@ -114,6 +122,15 @@ int Searcher::Worker::negamax(int depth, int alpha, int beta, int ply,
     if (s->stop_.load(std::memory_order_relaxed)) return 0;
 
     bool in_check = board.in_check();
+
+    // ---- Draw detection (repetition + 50-move rule) --------------------------
+    // Not at the root: the root must always return a move. Mate takes priority
+    // over the 50-move rule, so that shortcut is skipped while in check.
+    if (ply > 0) {
+        if (board.is_repetition(ply)) return draw_score(ply);
+        if (board.halfmove_clock() >= 100 && !in_check) return draw_score(ply);
+    }
+
     if (in_check) ++depth;  // check extension
     if (depth <= 0) return quiescence(alpha, beta, ply);
 

@@ -7,6 +7,7 @@ add_executable(shark_tests
     tactic_test.cpp
     uci_test.cpp
     personality_test.cpp
+    repetition_test.cpp
 )
 target_link_libraries(shark_tests PRIVATE shark_core)
 

@@ -60,6 +60,16 @@ class Board {
     Piece piece_on(Square s) const { return mailbox_[s]; }
     Square king_square(Color c) const { return lsb(bb_[c][KING]); }
     std::uint64_t key() const { return key_; }
+    int halfmove_clock() const { return halfmove_clock_; }
+
+    // Repetition detection (used by search to score draws).
+    // `ply` = number of plies played since the search root (0 at the root).
+    // Returns true if the current position already occurred:
+    //   * once inside the current search line (after the root), or
+    //   * twice in total counting the game history (a real threefold).
+    // Only positions since the last irreversible move (pawn move/capture)
+    // are examined, and only those with the same side to move.
+    bool is_repetition(int ply) const;
 
     // True if side `c` has any piece besides pawns/king (guards null-move
     // pruning against zugzwang in pawn endgames).

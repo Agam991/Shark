@@ -1,5 +1,6 @@
 #include "shark/board.hpp"
 
+#include <algorithm>
 #include <cctype>
 #include <sstream>
 
@@ -301,6 +302,23 @@ void Board::unmake_move(Move m) {
     halfmove_clock_ = st.halfmove_clock;
     key_ = st.key;
     if (us == BLACK) --fullmove_number_;
+}
+
+// ---- Repetition ----------------------------------------------------------------
+// history_[n - i].key is the position that occurred i plies ago. Same side to
+// move means i is even, so we step by 2. A pawn move or capture resets
+// halfmove_clock_, and nothing before that point can ever repeat.
+bool Board::is_repetition(int ply) const {
+    const int n = static_cast<int>(history_.size());
+    const int limit = std::min(halfmove_clock_, n);
+    int seen = 0;
+    for (int i = 2; i <= limit; i += 2) {
+        if (history_[n - i].key == key_) {
+            if (i < ply) return true;  // repeated inside the search tree
+            if (++seen >= 2) return true;  // threefold using game history
+        }
+    }
+    return false;
 }
 
 // ---- Null move (pass the turn) ----------------------------------------------
